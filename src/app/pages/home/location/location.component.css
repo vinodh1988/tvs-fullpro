@@ -1,0 +1,58 @@
+.box{
+    overflow: hidden;
+    width: 400px;
+    height:280px;
+    margin: 20px;
+    float: left;
+    box-shadow: 3px 3px 3px gray;
+}
+.imagebox{
+    height: 100%;
+    width: 35%;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid gray;
+    text-align:center;
+    background-color: darkgray;
+    padding-top: 10%;
+}
+
+.imagebox img{
+    height: 80%;
+    width: 90%;
+}
+
+.content{
+    float: left;
+    box-sizing: border-box;
+    width: 65%;
+    height: 100%;
+    border: 1px solid gray;
+    background-color: lightgray;
+}
+
+.content h4{
+    color: darkslategrey;
+    font-family: arial;
+    text-align: center;
+    margin:  10px;
+}
+
+.description{
+    color: darkolivegreen;
+    font-family: consolas;
+    text-align: justify;
+    padding: 5px;
+}
+
+h5{
+    color: darkred;
+    font-family: Courier;
+    text-align: center;
+    margin: 5px;
+}
+.empcount{
+    color: darkblue;
+    font-family: Courier;
+    text-align: center;
+}

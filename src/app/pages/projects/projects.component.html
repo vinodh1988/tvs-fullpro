@@ -1,0 +1,22 @@
+
+<h1 [style.color]="'darkblue'">Project details</h1>
+
+<table class="table table-hover table-striped">
+   <thead>
+       <th>Project ID</th>
+       <th>Project Title</th>
+       <th>Team Size</th>
+       <th>Duration</th>
+       <th>Core Technology</th>
+   </thead>
+   <tbody>
+       <tr *ngFor="let x of projects">
+            <td>{{x.projectid}}</td>
+            <td>{{x.projecttitle}}</td>
+            <td>{{x.teamsize}}</td>
+            <td>{{x.duration}}</td>
+            <td>{{x.coretech}}</td>
+       </tr>
+   </tbody>
+
+</table>

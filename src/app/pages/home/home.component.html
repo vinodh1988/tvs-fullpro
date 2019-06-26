@@ -1,0 +1,11 @@
+<select [(ngModel)]="ctype">
+    <option>Low Revenue</option>
+    <option>High Revenue</option>
+    <option>Very High</option>
+    <option>Low to High</option>
+    <option>High to Low</option>
+    <option>All</option>
+</select>
+<br>
+<app-location *ngFor="let x of locations |productivity:ctype" [location]="x"></app-location>
+

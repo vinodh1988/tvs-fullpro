@@ -1,0 +1,11 @@
+<div class="box">
+  <div class="imagebox">
+    <img src="../../../../assets/images/{{location.image}}">
+  </div>
+  <div class="content">
+     <h4>{{location.name | uppercase}}</h4>
+     <h6 class="description">{{location.description}}</h6>
+     <h5>Revenue :: {{location.revenue | currency:"INR"}} Crores</h5>
+     <h6 class="empcount">Employee count:: {{location.empcount|rated}}</h6>
+  </div>
+</div>
